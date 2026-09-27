@@ -24,7 +24,7 @@ Caregiver involvement
 
 Patient engagement and adherence
 
-Patients may lose track of what needs to happen next, while doctors may lack a unified view of the patient's complete journey.
+Patients may lose track of what comes next, while doctors may lack a unified view of the patient's full journey.
 
 The goal is to build a connected Patient Dashboard + Doctor Dashboard + Backend that bridges the gap between a doctor's care decision and the patient's follow-through.
 
@@ -109,7 +109,7 @@ Person 3
 
 ⚙️ API + Backend
 
-Backend, database, authentication, APIs, AI and integration
+Backend, database, authentication, APIs, AI, and integration
 
 5. Person 1 — Doctor Dashboard
 
@@ -237,9 +237,9 @@ View patient reports
 
 Open uploaded documents
 
-Mark reports as reviewed
+Mark reports as reviewed.
 
-Attach reports to patient history
+Attach reports to patient history.
 
 Add notes
 
@@ -411,7 +411,7 @@ Create query
 
 Send message
 
-View doctor's response
+View doctor's response.
 
 View conversation history
 
@@ -654,7 +654,7 @@ Generate reminders
 
 Surface non-clinical signals
 
-Retrieve relevant reference information
+Retrieve relevant reference information.
 
 AI must not independently:
 
@@ -664,7 +664,7 @@ Prescribe treatment
 
 Make clinical decisions
 
-Modify the care plan
+Modify the care plan.
 
 Interpret medical reports
 
@@ -859,9 +859,9 @@ main
 
 Workflow:
 
-Pull latest main
+Pull the latest main
       ↓
-Work only in assigned area
+Work only in the assigned area.
       ↓
 Test locally
       ↓
