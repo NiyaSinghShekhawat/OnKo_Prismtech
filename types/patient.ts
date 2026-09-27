@@ -4,6 +4,15 @@ export interface Patient {
   patientId: string;
   name: string;
   age?: number;
+  dateOfBirth?: string;
+  gender?: string;
+  phone?: string;
+  address?: string;
+  emergencyContactName?: string;
+  emergencyContactPhone?: string;
+  email?: string;
+  authUid?: string;
+  accountStatus?: "active" | "disabled";
   diagnosisLabel?: string;
   currentCarePhase: CareJourneyState;
   doctorId: string;

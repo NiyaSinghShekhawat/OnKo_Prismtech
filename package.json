@@ -14,7 +14,8 @@
     "test:core": "node --env-file=.env.local --import=tsx backend/tests/core.test.ts",
     "test:storage": "tsx backend/tests/reportStorage.test.ts",
     "test:whatsapp": "tsx backend/tests/whatsappDelivery.test.ts",
-    "setup:demo": "npm run seed:demo && npm run provision:demo"
+    "setup:demo": "npm run seed:demo && npm run provision:demo",
+    "clear:demo": "node --env-file=.env.local --import=tsx backend/scripts/clearDemoPatient.ts"
   },
   "dependencies": {
     "firebase": "^12.2.1",
